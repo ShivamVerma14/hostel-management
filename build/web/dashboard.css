@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.admin-container {
+    display: flex;
+    height: 100vh;
+}
+
+.profile-container {
+    background-color: #28282B;
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-container i {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.buttons-container {
+    width: 230px;
+    background-color: #28282B;
+    padding: 30px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-button {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: transparent; /* Set the background color to transparent */
+    color: white; /* Set the text color to white */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: rgb(169, 169, 169);
+}
+
+.logout-button {
+    width: 100px;
+    height: 38px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: transparent; /* Set the background color to transparent */
+    color: white; /* Set the text color to white */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: rgb(169, 169, 169);
+}
+.info-container {
+    background-color: transparent;
+    
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 200px;
+    width: 1200px; /* Adjust the width as needed */
+}
+.info-item {
+    padding-top: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    border-bottom: 1px solid black;
+}
+
+.info-item strong {
+    margin-right: 10px;
+}
+/* Your existing CSS styles */
+
+/* Add this style for the "Update" button */
+.nav-button-update {
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #28282B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.nav-button-update:hover {
+    background-color: rgb(169, 169, 169);
+}
+/* adminid name email ph-no joiningdate collegename */
